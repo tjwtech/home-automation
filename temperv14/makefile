@@ -7,6 +7,3 @@ temperv14:	temperv14.c
 
 clean:		
 	rm -f temperv14 *.o
-
-rules-install:			# must be superuser to do this
-	cp 99-tempsensor.rules /etc/udev/rules.d
