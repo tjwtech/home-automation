@@ -47,6 +47,8 @@
 #include <string.h>
 #include <errno.h>
 #include <signal.h> 
+
+#include <ctype.h>
  
  
 #define VERSION "0.0.1"
@@ -450,7 +452,7 @@ int main( int argc, char **argv) {
      usb_release_interface(lvr_winusb, INTERFACE1);
      usb_release_interface(lvr_winusb, INTERFACE2);
      
-     usb_close(lvr_winusb); 
+     usb_reset(lvr_winusb); 
       
      return 0; 
 }
