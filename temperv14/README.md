@@ -16,4 +16,5 @@ pcsensor version 0.0.1
 ​
 * Dependencies:
 libusb
- sudo apt-get install libusb-dev libusb-1.0-0-dev
+
+   sudo apt-get install libusb-dev libusb-1.0-0-dev
